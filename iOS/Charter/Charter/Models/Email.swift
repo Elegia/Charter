@@ -35,16 +35,14 @@ final class Email: Object {
             && content.characters.count > 0
             && subject.characters.count > 0
     }
+    
+    override var hashValue: Int { return id.hashValue }
 }
 
 enum EmailError: ErrorType {
     case InvalidDate
     case MissingFields
     case InvalidData
-}
-
-extension Email: Hashable {
-    override var hashValue: Int { return id.hashValue }
 }
 
 func ==(lhs: Email, rhs: Email) -> Bool {

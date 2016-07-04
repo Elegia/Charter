@@ -38,6 +38,16 @@
                ReferencedContainer = "container:Charter.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "0EE823041C674BE8005070AC"
+               BuildableName = "CharterUITests.xctest"
+               BlueprintName = "CharterUITests"
+               ReferencedContainer = "container:Charter.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
